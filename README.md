@@ -5,6 +5,7 @@ Just a simple cache delete button in your admin to ease in development
 ## Getting Started
 
 Step 1: Copy the files from the "upload" and paste them into the root folder on your opencart installation. 
+
 Step 2: Copy the following code and add it to your "/admin/controller/common/column_left.php" just after where "tool/log" is mentioned ref. the image.  
 ```
 	if ($this->user->hasPermission('access', 'tool/cache')) {
@@ -15,7 +16,7 @@ Step 2: Copy the following code and add it to your "/admin/controller/common/col
 		);
 	}
 ```
-
+![Where to Paste Code](https://raw.githubusercontent.com/ankursinghagra/opencart-cache-module/master/add-route.png)
 
 ### Prerequisites
 
